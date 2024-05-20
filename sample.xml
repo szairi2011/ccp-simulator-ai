@@ -1,0 +1,18 @@
+<TrdCaptRpt RptID="2799" TrdID="30281004800" TransTyp="0" RptTyp="2" TrdTyp="2" MtchID="30281001777"
+  PxTyp="2" LastQty="10" LastPx="115" TrdDt="2023-09-28" BizDt="2023-09-28"
+  TxnTm="2023-10-04T05:17:30.749-05:00">
+  <Hdr SID="MGEX" TID="D210" PosDup="N" PosRsnd="N" Snt="2023-10-04T05:17:30.788-05:00"></Hdr>
+  <Instrmt Sym="BUI" ID="BUI" Src="H" CFI="FCCPXX" MMY="202312" MatDt="2023-12-27" Mult="0.1"
+    Exch="BTNL"></Instrmt>
+  <RptSide Side="2" Ccy="USD" InptSrc="MA" InptDev="PORTAL" CustCpcty="1" PosEfct="C" ClOrdID="123"
+    MLegRptTyp="1" AllocInd="0">
+    <Pty ID="MGEX" R="21"></Pty>
+    <Pty ID="210" R="1"></Pty>
+    <Pty ID="210" R="4"></Pty>
+    <Pty ID="Emira-115" R="24">
+      <Sub ID="2" Typ="26"></Sub>
+    </Pty>
+    <Pty ID="210" R="12"></Pty>
+    <TrdRegTS TS="2023-10-04T05:17:30.749-05:00" Typ="1"></TrdRegTS>
+  </RptSide>
+</TrdCaptRpt>
