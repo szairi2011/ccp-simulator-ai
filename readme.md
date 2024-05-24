@@ -30,6 +30,21 @@ Open a notebook (i.e. .ipynb file) and select the right Kernel
 $ jupyter lab
 ```
 
+## Install packages:
+
+```sh
+$ pip install random
+```
+```sh
+$ pip install pandas
+```
+```sh
+$ pip install torch
+```
+```sh
+$ pip install transformers
+```
+
 
 
 
