@@ -45,6 +45,18 @@ $ pip install torch
 $ pip install transformers
 ```
 
+## Converting and synching .py and .ipynb
+Usually it is a good practice to start with an .ipynb notebook to experiment the code by executing one cell at a time with a fine-grained control over different parts of the code.
+Once the code is ready, it can be converted to a .py file for a more efficient execution.
+To convert the .ipynb to .py file, follow the below steps:
 
+```sh
+$ pip install jupytext # Already don for this project
+```
+To create and keep both files in sync, run below command:
 
+```sh
+$ jupytext --set-formats ipynb,py:percent custom_mini_decoder_transformer.py --sync
+```
+This will create a new .ipynb file from the .py file provided above, i.e. from custom_mini_decoder_transformer.py., and keep them in sync. So, if we modify the newly created .ipynb and save it will update the .py counterpart.
 
